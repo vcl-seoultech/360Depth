@@ -11,7 +11,7 @@ This is the official code of our APIN 2022 paper **"Dense Depth Estimation from 
 ## Usage
 Clone the repository:
 ```
-git clone <>
+git clone https://github.com/ysy9997/360Depth.git
 ```
 You can simply execute `build.sh` to build this program.
 ```
@@ -21,10 +21,12 @@ chmod +x build.sh
 ```
 This will create *libDEMO.so* at *lib* folder and two executable *image* and *video* in current folder.  
 
-You can simply run demo like below.
+You can simply run like below.
 ```
-./image [the number of cameras] [max depth] [interval] [save folder path] [0th images folder] [1st images folder] ...
+./image [the number of cameras] [max depth] [rigid] [save folder path] [0th images folder] [1st images folder] ...
 ```
+
+If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. The max depth needs to be divided as a baseline between 0th and 1th cameras. 
 
 ## Results
 | Data Set  | *classroom* |            | *smallroom* |            |

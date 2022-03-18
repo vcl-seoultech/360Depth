@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 	printf("max_depth: %f    interval: %f\n", max_depth, interval);
 
 	vector<cv::String>* fn = new vector<cv::String>[camera_n];
-	for(int i = 0; i < camera_n; i ++) glob(argv[i + 6], fn[i], false);
+	for(int i = 0; i < camera_n; i ++) glob(argv[i + 5], fn[i], false);
 		
 	int count = fn[0].size();
 
