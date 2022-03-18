@@ -11,7 +11,7 @@ This is the official code of our APIN 2022 paper **"Dense Depth Estimation from 
 ## Usage
 Clone the repository:
 ```
-git clone <>
+git clone https://github.com/ysy9997/360Depth.git
 ```
 You can simply execute `build.sh` to build this program.
 ```
