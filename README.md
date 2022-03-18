@@ -21,10 +21,12 @@ chmod +x build.sh
 ```
 This will create *libDEMO.so* at *lib* folder and two executable *image* and *video* in current folder.  
 
-You can simply run demo like below.
+You can simply run like below.
 ```
-./image [the number of cameras] [max depth] [interval] [save folder path] [0th images folder] [1st images folder] ...
+./image [the number of cameras] [max depth] [rigid] [save folder path] [0th images folder] [1st images folder] ...
 ```
+
+If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. The max depth needs to be divided as a baseline between 0th and 1th cameras. 
 
 ## Results
 | Data Set  | *classroom* |            | *smallroom* |            |
