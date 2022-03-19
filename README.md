@@ -5,6 +5,9 @@
 
 This is the official code of our APIN 2022 paper **"Dense Depth Estimation from Multiple 360-degree Images Using Virtual Depth"**.
 
+##Overview
+<img src="./images/overview.png"></center>
+
 ## Prerequisites
 - Ubuntu 18.04
 - C++11 Compiler
@@ -28,7 +31,7 @@ You can simply run like below.
 ./image [the number of cameras] [max depth] [rigid] [save folder path] [0th images folder] [1st images folder] ...
 ```
 
-If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. The max depth needs to be divided as a baseline between 0th and 1th cameras. 
+If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. The max depth needs to be divided as a baseline between 0th and 1th cameras. (e.g. When the baseline is 0.5m and the furthest distance is 10m, then, the max depth should be 20m.)
 
 ## Results
 | Data Set  | *classroom* |            | *smallroom* |            |
@@ -41,3 +44,5 @@ If set 'rigid' as 1, it means rotation matrix is identity, and translation vecto
 | BiFuse    |    1.803    |   17.481   |    4.108    |   13.866   |
 | UniFuse   |    0.215    |   26.707   |    1.655    |   17.825   |
 | **ours**  |  **0.193**  | **27.178** |  **0.303**  | **25.193** |
+
+<img src="./images/classroom.png" width="300" height="150"><img src="./images/result.png" width="300" height="150">
