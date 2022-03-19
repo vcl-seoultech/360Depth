@@ -1,3 +1,5 @@
+![C++](https://img.shields.io/badge/c++-11-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
 # Dense Depth Estimation from Multiple 360-degree Images Using Virtual Depth
 [[Paper]](https://link.springer.com/article/10.1007/s10489-022-03391-w) [[arXiv]](https://arxiv.org/abs/2112.14931)
 
