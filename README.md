@@ -1,7 +1,7 @@
 ![C++](https://img.shields.io/badge/c++-11-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 # Dense Depth Estimation from Multiple 360-degree Images Using Virtual Depth
-[[Paper]](https://link.springer.com/article/10.1007/s10489-022-03391-w) [[arXiv]](https://arxiv.org/abs/2112.14931)
+[[Project]](https://vcl.seoultech.ac.kr/vrar.html) [[Paper]](https://link.springer.com/article/10.1007/s10489-022-03391-w) [[arXiv]](https://arxiv.org/abs/2112.14931)
 
 This is the official code of our APIN 2022 paper **"Dense Depth Estimation from Multiple 360-degree Images Using Virtual Depth"**.
 
@@ -31,7 +31,7 @@ You can simply run like below.
 ./image [the number of cameras] [max depth] [rigid] [save folder path] [0th images folder] [1st images folder] ...
 ```
 
-If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. The max depth needs to be divided as a baseline between 0th and 1th cameras. (e.g. When the baseline is 0.5m and the furthest distance is 10m, then, the max depth should be 20m.)
+If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. The max depth needs to be divided as a baseline between 0th and 1th cameras. (e.g. When the baseline is 0.5m and the furthest distance is 10m, then, the max depth should be 20.)
 
 ## Results
 | Data Set  | *classroom* |            | *smallroom* |            |
