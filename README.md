@@ -24,7 +24,7 @@ cd 360depth-demo
 chmod +x build.sh
 ./build.sh  
 ```
-This will create *libDEMO.so* at *lib* folder and two executable *image* and *video* in current folder.  
+This will create *libDEMO.so* at *lib* folder and two executable *image* in current folder.  
 
 You can simply run like below.
 ```
