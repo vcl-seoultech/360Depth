@@ -1,5 +1,5 @@
 ![C++](https://img.shields.io/badge/c++-11-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-3.4.5-5C3EE8.svg?style=for-the-badge&logo=OpenCV&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-3.4.6-5C3EE8.svg?style=for-the-badge&logo=OpenCV&logoColor=white)
 
 # Dense Depth Estimation from Multiple 360-degree Images Using Virtual Depth
 [[Project]](https://vcl.seoultech.ac.kr/vrar.html) [[Paper]](https://link.springer.com/article/10.1007/s10489-022-03391-w) [[arXiv]](https://arxiv.org/abs/2112.14931)
@@ -12,7 +12,7 @@ This is the official code of our APIN 2022 paper **"Dense Depth Estimation from 
 ## Prerequisites
 - Ubuntu 18.04
 - C++11 Compiler
-- OpenCV > 3.0 (**Tested with OpenCV 3.4.5.**)
+- OpenCV > 3.0 (**Tested with OpenCV 3.4.6.**)
 
 ## Usage
 Clone the repository:
