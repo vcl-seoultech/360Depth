@@ -35,7 +35,7 @@ You can simply run like below.
 If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. The max depth needs to be divided as a baseline between 0th and 1th cameras. (e.g. When the baseline is 0.5m and the furthest distance is 10m, then, the max depth should be 20.)
 
 ## Results
-| Data Set  | *classroom* |            | *smallroom* |            |
+|  Dataset  | *classroom* |            | *smallroom* |            |
 |:----------|:-----------:|:----------:|:-----------:|:----------:|
 |           |    MSE↓     |   PSNR↑    |    MSE↓     |   PSNR↑    |
 | GC-Net    |    0.951    |   20.239   |    5.801    |   12.366   |
