@@ -1,3 +1,4 @@
+![Ubuntu](https://img.shields.io/badge/Ubuntu-18.04-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-11-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-3.4.6-5C3EE8.svg?style=for-the-badge&logo=OpenCV&logoColor=white)
 
