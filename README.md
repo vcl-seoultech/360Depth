@@ -22,7 +22,7 @@ git clone https://github.com/ysy9997/360Depth.git
 ```
 You can simply execute `build.sh` to build this program.
 ```
-cd 360depth-demo
+cd 360Depth
 chmod +x build.sh
 ./build.sh  
 ```
