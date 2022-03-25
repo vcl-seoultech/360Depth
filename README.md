@@ -33,7 +33,9 @@ You can simply run like below.
 ./image [the number of cameras] [max depth] [rigid] [save folder path] [0th images folder] [1st images folder] ...
 ```
 
-If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. The max depth needs to be divided as a baseline between 0th and 1th cameras. (e.g. When the baseline is 0.5m and the furthest distance is 10m, then, the max depth should be 20.)
+If set 'rigid' as 1, it means rotation matrix is identity, and translation vector is [0, 0, -1]. If set 'rigid' as 0, this application will estimate rotation matrix and translation vector. 
+
+The max depth needs to be divided as a baseline between 0th and 1th cameras. (e.g. When the baseline is 0.5m and the furthest distance is 10m, then, the max depth should be 20.)
 
 ## Results
 | Dataset   | *classroom* |            | *smallroom* |            |
