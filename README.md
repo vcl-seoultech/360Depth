@@ -50,4 +50,3 @@ The max depth needs to be divided as a baseline between 0th and 1th cameras. (e.
 | **ours**  |  **0.193**  | **27.178** |  **0.303**  | **25.193** |
 
 <img src="./images/classroom.png" width="300" height="150"><img src="./images/result.png" width="300" height="150">
-
